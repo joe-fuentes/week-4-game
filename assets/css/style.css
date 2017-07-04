@@ -5,11 +5,11 @@ body {
   color: #777;
   background: url("../images/background-tile.png");
 }
-
+/*
 * {
   box-sizing: border-box;
 }
-
+*/
   .crystal-image {
     width: 60px;
     height: 60px;
@@ -18,13 +18,13 @@ body {
 
 
 /* general */
-
+/*
 .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-}
+}*/
 
 h1,
 h2,
@@ -58,17 +58,17 @@ h3 {
 }
 
 /* header */
-
+/*
 #masthead {
 /*  position: fixed;
-  z-index: 99;*/
+  z-index: 99;
   width: 100%;
-/*  margin: 0 0 30px;*/
+/*  margin: 0 0 30px;
   overflow: auto;
   color: #fff;
   background: #fff;
-/*  border-bottom: 2px solid #ccc;*/
-}
+/*  border-bottom: 2px solid #ccc;
+}*/
 
 #logo {
   float: left;
@@ -78,10 +78,11 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 70px;
-  color: white; /*#fff;*/
+  color: white;
   text-align: center;
   text-decoration: none;
-  background: brown; /*#4aaaa5; */
+  background: url("../images/heading-background.png"); /*#4aaaa5; */
+  margin: 5px auto;
 }
 
 nav {
